@@ -1,0 +1,108 @@
+.bg-1
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F833df286-1d96-42d1-af42-6f68ada66bf8%2FTNIE_import_2023_8_5_original_Indigo_malfunction.avif?w=640&auto=format%2Ccompress&fit=max" );
+}
+.bg-2
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2Fc0f0e517-7cba-4c19-b118-316fa4d8fef0%2FHC%20directs%20TN.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-3
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F4cc669fc-2b00-4360-a06b-0d96f6404732%2F%6021%20crore.jpg?rect=0%2C0%2C1080%2C608&w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-4
+{
+    background-image: url("https://media.assettype.com/TNIE%2Fimport%2F2019%2F11%2F27%2Foriginal%2Fpjimage_1.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+
+.bg-5
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F463155d5-5576-4c26-856a-304b31a93c22%2F2015_06_26T104032Z_1_LYNXMPEB5P0GE_RTROPTP_3_YUMBRANDS_RESULTS.png?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-6
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2Fc4df95f8-1fcc-4191-b80b-b5b8f0fcd30b%2F1st%20radio-collared.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-7
+{
+    background-image: url("https://media.assettype.com/TNIE%2Fimport%2F2023%2F10%2F8%2Foriginal%2FMadras_HC_EPS.jpg?rect=23%2C0%2C2766%2C1556&w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-8
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F01b94112-60cf-4158-a2e5-380d38e23c8c%2FBreakfast%20scheme.avif?w=640&auto=format%2Ccompress&fit=max");
+}
+
+.bg-9
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F0517716c-f559-496f-87a0-45c40d732255%2Fnewindianexpress_2024-02_16bf1e49-168c-404a-9c73-82dbaa6675e7_microsoft_OZQIAmD.avif?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-10
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2Fb41f6779-6042-4300-8420-5be3c88ed634%2FANI_20240720061922.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-11
+{
+    background-image: url("https://media.assettype.com/newindianexpress%2F2024-07%2F8bdd4fbd-4fbf-48c2-baf2-8d648d897832%2FIndia%20finish%20another.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+.bg-12
+{
+    background: url("https://media.assettype.com/newindianexpress%2F2024-03%2F6bea725a-ee08-488f-8175-0cfa013b8e83%2FC_1_1_CH0198_98114925.jpg?w=640&auto=format%2Ccompress&fit=max");
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+body
+{
+    background-color: rgb(179, 201, 241);
+}
+
+div{
+    
+    height: 300px;
+   
+}
+.continer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 10px;
+    gap: 20px;
+    
+}
+.continer > div{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+     
+     
+      
+}
+.continer> div:hover
+{
+    opacity: 0.8;
+    transform: scale(0.98);
+    
+}
+ .continer> div:nth-of-type(1)
+{
+    grid-column: 1/5;
+   
+    
+} 
+a{
+    position: relative;
+    top: 84px;
+    
+}
+span a{
+    font-weight: bolder;
+}
